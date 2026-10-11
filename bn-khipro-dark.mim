@@ -447,15 +447,15 @@
 		(byanjon
 			(cond
 				((= CnstBufr 0)
-					(set Cnst1 CnstID) (set CnstBufr 1) (mark cstm1)
+					(set Cnst1 CnstID) (set CnstBufr 1) (mark cstm1) (mark cstm2) (mark cstm3) (mark cstm4) (set Cnst2 0) (set Cnst3 0) (set Cnst4 0)
 				)
 				((= CnstBufr 1)
 					(set Cnst2 Cnst1) (set Cnst1 CnstID) (set CnstBufr 2)
-					(move cstm1) (mark cstm2) (move @>) (mark cstm1)
+					(move cstm1) (mark cstm2) (move @>) (mark cstm1) (mark cstm3) (mark cstm4) (set Cnst3 0) (set Cnst4 0)
 				)
 				((= CnstBufr 2)
 					(set Cnst3 Cnst2) (set Cnst2 Cnst1) (set Cnst1 CnstID) (set CnstBufr 3)
-					(move cstm2) (mark cstm3) (move cstm1) (mark cstm2) (move @>) (mark cstm1)
+					(move cstm2) (mark cstm3) (move cstm1) (mark cstm2) (move @>) (mark cstm1) (mark cstm4) (set Cnst4 0)
 				)
 				((= CnstBufr 3)
 					(set Cnst4 Cnst3) (set Cnst3 Cnst2) (set Cnst2 Cnst1) (set Cnst1 CnstID) (set CnstBufr 4)
