@@ -717,7 +717,7 @@
 			(cond
 				( (& (> CnstBufr 1)(= FuserID 1))
 					(cond
-						((& (= Cnst2 1) (= Cnst1 2)) (delete cstm2) (delete @-) (insert "ক্ষ") (set CnstID 39) (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst2 1) (= Cnst1 2)) (move cstm1) (delete cstm2) (delete @-) (insert "ক্ষ") (set CnstID 39) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 						((& (= Cnst2 1) (= Cnst1 30)) (move cstm2) (insert ?্) (move @>) (delete @-) (set CnstID 39) (reset_cnst_buffer_after_cnjnct))
 
 						((& (= Cnst2 3) (= Cnst1 15)) (move cstm1) (delete cstm2) (delete @-) (insert "গ্‌ণ") (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
@@ -745,7 +745,7 @@
 
 						((& (= Cnst2 39) (= Cnst1 20)) (move cstm1) (delete cstm2) (delete @-3) (insert "ক্ষ্ণ") (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 
-						((& (= Cnst2 27) (= Cnst1 26)) (delete cstm1) (form_jo_phola) (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst2 27) (= Cnst1 26)) (move cstm1) (form_jo_phola) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 
 						(1 (move cstm2) (insert ?্) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct) )
 					)
