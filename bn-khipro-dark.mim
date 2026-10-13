@@ -752,11 +752,11 @@
 				)
 				( (& (> CnstBufr 2)(= FuserID 2))
 					(cond
-						((& (= Cnst3 1) (= Cnst2 2) (= Cnst1 15)) (delete cstm3) (delete @-) (insert "ক্ষ্ণ") (reset_cnst_buffer_after_cnjnct))
-						((& (= Cnst3 1) (= Cnst2 2) (= Cnst1 20)) (delete cstm3) (delete @-) (insert "ক্ষ্ণ") (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst3 1) (= Cnst2 2) (= Cnst1 15)) (move cstm1) (delete cstm3) (delete @-) (insert "ক্ষ্ণ") (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst3 1) (= Cnst2 2) (= Cnst1 20)) (move cstm1) (delete cstm3) (delete @-) (insert "ক্ষ্ণ") (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 
-						((& (= Cnst3 5) (= Cnst2 1) (= Cnst1 2)) (delete cstm3) (delete @-) (insert "ঙ্ক্ষ") (reset_cnst_buffer_after_cnjnct))
-						((& (= Cnst3 5) (= Cnst2 1) (= Cnst1 16)) (delete cstm3) (delete @-) (insert "ঙ্‌ক্ত") (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst3 5) (= Cnst2 1) (= Cnst1 2)) (move cstm1) (delete cstm3) (delete @-) (insert "ঙ্ক্ষ") (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst3 5) (= Cnst2 1) (= Cnst1 16)) (move cstm1) (delete cstm3) (delete @-) (insert "ঙ্‌ক্ত") (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 
 
 						;; SMALLER GROUP SUPPORT
