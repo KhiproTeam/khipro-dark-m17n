@@ -760,7 +760,7 @@
 
 
 						;; SMALLER GROUP SUPPORT
-						((& (= Cnst3 1) (= Cnst2 2) (> Cnst1 0)) (move cstm2) (delete cstm3) (delete @-) (insert "ক্ষ") (insert ?্) (set CnstID 39) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
+						((& (= Cnst3 1) (= Cnst2 2) (> Cnst1 0)) (move cstm2) (delete cstm3) (delete @-) (insert "ক্ষ") (insert ?্) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 
 						((& (= Cnst3 3) (= Cnst2 15) (> Cnst1 0)) (move cstm2) (delete cstm3) (delete @-) (insert "গ্‌ণ") (insert ?্) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
 						((& (= Cnst3 3) (= Cnst2 23) (> Cnst1 0)) (move cstm2) (delete cstm3) (delete @-) (insert "গ্‌ব") (insert ?্) (move @>) (delete @-) (reset_cnst_buffer_after_cnjnct))
