@@ -859,7 +859,8 @@
 					(shift slash_state)
 				)
 			)
-		)	
+		)
+		(prithayok (delete @-)  (shift init) )
 	)
 )
 (macro
