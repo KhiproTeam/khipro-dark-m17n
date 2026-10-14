@@ -619,7 +619,7 @@
 						(1 (commit)(shift init))
 					)
 				)
-				((= FuserID 4)
+				((&(= FuserID 4)(> CnstBufr 1))
 					(cond
 						((= Cnst1 16) (delete cstm1) (delete @-) (insert "ৎ") (shift init))
 						((= Cnst1 2) (delete cstm1) (delete @-) (insert "কহ") (move @-) (mark cstm2) (move @>) (mark cstm1) (set CnstBufr 2) (set Cnst2 1) (set Cnst2 32))
@@ -634,6 +634,9 @@
 						((&(= Cnst1 188) (= Fflag 0)) (delete cstm1) (delete @-3) (insert "গগ") (move @-) (mark cstm2) (move @>) (mark cstm1) (set CnstBufr 2) (set Cnst2 3) (set Cnst2 3))
 						(1 (commit) (shift init))
 					)
+				)
+				((&(= FuserID 4)(= CnstBufr 1))
+					(delete @-2) (insert "ঁ") (shift shor_state)
 				)
 				((& (= CnstBufr 1) (= FuserID 2))
 					(cond
