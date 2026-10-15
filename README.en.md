@@ -69,6 +69,14 @@ For example: `to`+`/` = `তঁ`
 - Or if you want to take a slightly longer route, this can be done using the separator.  
 For example: `t;//` = `তঁ`
 
+#### Reph on Ya `র্য` vs Ya-phala on Ra `র‍্য`
+- Typing `r`+`z`+`/` will produce `র‍্য`, not `র্য`, since joining Ya after other consonants also produces a ya-phala.  
+For example: `k`+`z`+`/` = `ক্য`
+- For this reason, the `rr` mapping from Khipro Classic has been retained for typing reph.  
+For example: `rrz` = `র্য`
+- Therefore, for consonants other than `য`, there are two ways to apply reph.  
+For example: `rk/` = `rrk` = `র্ক`
+
 ### General Overview of Khipro
 Khipro is not a phonetic layout. It is a compositional layout. That means that instead of pressing Alt or Shift, you can use a modifier key to perform operations like turning 'ত' into 'ট' or 'ক' into 'ক্ষ'.
 
