@@ -371,10 +371,17 @@ if [[ $branch_choice =~ ^[Nn]$ ]]; then
             fi
         done
 
+        has_next_page=false
         if [ "$((start_index + items_per_page))" -lt "$total_tags" ]; then
+            has_next_page=true
             echo " 6. Show next 5 releases"
         fi
-        echo " 7. Install from a branch"
+        if [ "$has_next_page" = true ]; then
+            branch_option=7
+        else
+            branch_option=$((${#current_items[@]} + 1))
+        fi
+        echo " $branch_option. Install from a branch"
         echo ""
         read -p "Enter number [Default: 1]: " input_ver
         input_ver=${input_ver:-1}
@@ -385,7 +392,7 @@ if [[ $branch_choice =~ ^[Nn]$ ]]; then
             break
         elif [ "$input_ver" = "6" ] && [ "$((start_index + items_per_page))" -lt "$total_tags" ]; then
             current_page=$((current_page + 1))
-        elif [ "$input_ver" = "7" ]; then
+        elif [ "$input_ver" = "$branch_option" ]; then
             print_status "Fetching available branches from GitHub..."
             branches=$(git ls-remote --heads "$REPO_URL" 2>/dev/null | \
                        awk '{print $2}' | \
