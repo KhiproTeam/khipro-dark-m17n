@@ -66,8 +66,13 @@ whereas `কশ`+`/`+`f` = `কসহ`
 - Interestingly, chandrabindu can also still be typed with slash as before. However, since chandrabindu always follows a vowel, pressing slash after a vowel will specifically produce chandrabindu.  
 For example: `to`+`/` = `তঁ`  
 - Or you can type chandrabindu by using the modifier `f` after `/`. For example: `/f` -> `ঁ`
+- Pressing `/` after a consonant cluster will not produce chandrabindu.  
+For example: `cankha/` will result in `চান্খা`, not `চানখাঁ`. Because in the new version, forming conjuncts is allowed even after typing a diacritic (kar) following a consonant cluster.  
+In such cases, `/f` must be used to type chandrabindu.  
+For example: `cankha/f` = `চানখাঁ`
 - Or if you want to take a slightly longer route, this can be done using the separator.  
-For example: `t;//` = `তঁ`
+For example: `t;//` = `তঁ`    
+or: `t;/f` = `তঁ`
 
 #### Reph on Ya `র্য` vs Ya-phala on Ra `র‍্য`
 - Typing `r`+`z`+`/` will produce `র‍্য`, not `র্য`, since joining Ya after other consonants also produces a ya-phala.  
