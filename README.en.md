@@ -95,7 +95,7 @@ In Khipro, forcing a diacritic into a vowel or forcing a vowel into a diacritic 
 
 ## Khipro Dark Installation
 To install Khipro Dark on Linux, just like Khipro Classic, there is a single command with which Khipro Dark can be installed via an interactive script. The command is provided below...
-```
+```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/KhiproTeam/khipro-dark-m17n/main/installer)"
 ```
 
