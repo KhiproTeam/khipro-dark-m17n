@@ -6,7 +6,7 @@
 
 ![khipro-dark-m17n](https://socialify.git.ci/KhiproTeam/khipro-dark-m17n/image?description=0&forks=1&issues=1&language=0&logo=https%3A%2F%2Fraw.githubusercontent.com%2FKhiproTeam%2Fkhipro-dark-m17n%2Fmain%2Fbn-khipro-dark.png&name=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)
 
-- বর্তমানে কেবল **লিনাক্সে** ক্ষিপ্র ডার্ক লেআউট ব্যবহার করা যাচ্ছে, এবং **উইন্ডোজে** খুব শিগ্‌গিরই Khipro Dark Portable Windows রিলিস করা হবে। ক্ষিপ্র ক্লাসিকের মতো উইন্ডোজ, অ্যান্ড্রয়েড ইত্যাদি সকল প্ল্যাটফর্মে শীঘ্রই আসছে। বিস্তারিত দেখুন [আমাদের ওয়েবসাইটে](https://khipro.khiproteam.com/)।
+- বর্তমানে **লিনাক্সে** এবং **অ্যান্ড্রয়েডে** (WM keyboard এর মাধ্যমে) ক্ষিপ্র ডার্ক লেআউট ব্যবহার করা যাচ্ছে, এবং **উইন্ডোজে** খুব শিগ্‌গিরই Khipro Dark Portable Windows রিলিস করা হবে। ক্ষিপ্র ক্লাসিকের মতো উইন্ডোজ, অ্যান্ড্রয়েড ইত্যাদি সকল প্ল্যাটফর্মে শীঘ্রই আসছে। বিস্তারিত দেখুন [আমাদের ওয়েবসাইটে](https://khipro.khiproteam.com/)।
 
 > [!NOTE]
 > This project is powered by github 🌟 stars. Go ahead and *star* it please!
